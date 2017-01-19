@@ -148,6 +148,15 @@ xmlns:android="http://schemas.android.com/apk/res/android"
         android:action="android.intent.action.VIEW"
         android:data="https://forum.xda-developers.com/member.php?u=4539289" />
    </PreferenceScreen>
+	
+   <PreferenceScreen
+    android:title="@string/dev_15"
+    android:summary="@string/dev15_description"
+    android:icon="@drawable/ic_devs_phone">
+    <intent
+         android:action="android.intent.action.VIEW"
+	 android:data="https://forum.xda-developers.com/member.php?u=6355400" />
+   </PreferenceScreen>
 </PreferenceCategory>
 
 <PreferenceCategory
@@ -172,15 +181,6 @@ xmlns:android="http://schemas.android.com/apk/res/android"
                android:data="https://plus.google.com/117406870732457629851" />
       </PreferenceScreen>
 	  
-   <PreferenceScreen
-    android:title="@string/dev_15"
-    android:summary="@string/dev15_description"
-    android:icon="@drawable/ic_devs_mention">
-    <intent
-	           android:action="android.intent.action.VIEW"
-	           android:data="https://forum.xda-developers.com/member.php?u=6355400" />
-   </PreferenceScreen>
-
 </PreferenceCategory>
 
 </PreferenceScreen>
